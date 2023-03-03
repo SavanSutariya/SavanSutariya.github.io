@@ -1,2 +1,3 @@
 [submodule "CSAVisualizer"]
-	branch = main
+    path = CSAVisualizer
+    url = https://github.com/SavanSutariya/CSAVisualizer
