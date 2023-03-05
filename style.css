@@ -1,0 +1,41 @@
+*{
+  color: #ffffff;
+}
+body{
+  display: block;
+  position: center;
+  font-family: 'Space Mono', monospace;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  /* bottom: 0; */
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: #f1f1f1;
+  width: 100%;
+  /* padding: 20px; */
+}
+.title{
+  font-family: 'Poppins', sans-serif;
+  /* font-size: 20px; */
+  font-weight: 300;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.card-style {
+  margin: 0 10%;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(35px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.25);
+  padding: 30px 30px 30px 30px;
+  overflow: hidden;
+}
